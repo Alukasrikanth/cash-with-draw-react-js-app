@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.cash-withdrawal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cash-withdrawal-card-container {
+  background-color: #150b3e;
+  width: 80%;
+  border-radius: 16px;
+  padding-top: 24px;
+  padding-bottom: 18px;
+  padding-right: 18px;
+  padding-left: 18px;
+  max-width: 400px;
+}
+.user-details-container {
+  display: flex;
+  flex-direction: row;
+}
+.name-container {
+  background-color: #c7d2fe;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.first-word {
+  color: #7c3aed;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.name {
+  color: #d4d2db;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.balance-text {
+  color: #382f5a;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.amount {
+  color: #c4c4c4;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.rupees {
+  color: #382f5a;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.with-draw {
+  color: #c4c4c4;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.choose-sum-text {
+  color: #545076;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.denomination-lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
